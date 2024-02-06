@@ -3,24 +3,43 @@
 }
 
 .menu-title-container {
-  font-family: 'Audiowide', sans-serif;
-  width: 30%;
+  font-family: "Audiowide", sans-serif;
+  width: 100%;
+  margin-right: 200px;
   color: white;
-  margin-left: 65%;
 }
 
 .menu-title-container > h1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 60px;
+  margin-left: 70%;
+  margin-right: 100px;
   display: flex;
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-
+  font-size: 3rem;
+  padding: 10px 10px 10px 10px;
+  animation: pulsate 1.5s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }
 
 .menu-title-container > br {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bc13fe,
+      0 0 80px #bc13fe, 0 0 90px #bc13fe, 0 0 100px #bc13fe, 0 0 150px #bc13fe;
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #bc13fe,
+      0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
+  }
 }
