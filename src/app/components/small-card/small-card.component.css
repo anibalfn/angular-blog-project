@@ -1,0 +1,19 @@
+.small-card-container {
+  border: 3px purple solid;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.small-card-title {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 70%;
+  justify-content: right;
+  border: 4px greenyellow solid;
+  margin-left: 30px;
+}
