@@ -4,7 +4,9 @@
 
 .menu-title-container {
   font-family: 'Audiowide', sans-serif;
+  width: 30%;
   color: white;
+  margin-left: 65%;
 }
 
 .menu-title-container > h1 {
@@ -15,6 +17,7 @@
   justify-content: center;
   text-align: center;
   font-weight: bolder;
+
 }
 
 .menu-title-container > br {

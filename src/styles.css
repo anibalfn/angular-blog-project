@@ -7,4 +7,11 @@
 
   background-color: #111111;
   color: white;
+
+  background: url("https://anibalfn.github.io/Images/landingpage_cyberpunk.jpg")
+    center/cover no-repeat fixed;
+  background-color: #030303; /* Cor de fundo de backup caso a imagem não seja carregada */
+  margin: 0; /* Remova as margens padrão do corpo */
+  padding: 0; /* Remova o preenchimento padrão do corpo */
+  font-family: 'Audiowide', sans-serif; /* Escolha uma fonte padrão para o texto do corpo */
 }
