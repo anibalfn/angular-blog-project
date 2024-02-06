@@ -5,6 +5,19 @@
   margin-left: 20px;
   font-weight: bolder;
   font-size: larger;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
 }
 
 .menu-bar-container > ul {
@@ -12,7 +25,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .menu-bar-container > ul > li {

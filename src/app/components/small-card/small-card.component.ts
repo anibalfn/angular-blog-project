@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
   photoCover: string = 'https://avatars.githubusercontent.com/u/78622296?v=4';
   cardTitle: string = 'TITLE';
-  smallCardDescription: string = `Lorem ipsum blablabla<br />
-  What do you do ma friend?<br />
+  smallCardDescription: string = `Lorem ipsum blablabla
+  What do you do ma friend?
   Du dudud e edu? What do u want?`
   ngOnInit(): void {
 

@@ -3,7 +3,7 @@
   width: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 8px;
 
 }
@@ -13,11 +13,11 @@
   flex-direction: column;
 }
 
-/* .small-card-title {
+.small-card-title {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-} */
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 h3 {
   color: aqua;
