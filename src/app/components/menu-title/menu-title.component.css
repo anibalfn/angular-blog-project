@@ -1,8 +1,18 @@
 .menu-title-container {
   font-family: "Audiowide", sans-serif;
+  margin-top: -45px;
+  padding-right: 30px;
+  height: 40%;
   width: 40%;
-  margin-left: 58%;
+  margin-left: 60%;
   color: white;
+  margin-right: 5%;
+  padding-bottom: 20px;
+  /* border: 5px red solid; */
+}
+
+a:hover {
+  color: magenta;
 }
 
 .menu-title-container > h1 {
@@ -11,7 +21,7 @@
   text-align: center;
   font-weight: bolder;
   font-size: 3rem;
-  padding: 10px 10px 10px 10px;
+  padding: 7px 7px 7px 7px;
   animation: pulsate 1.5s infinite alternate;
   border: 0.2rem solid #fff;
   border-radius: 2rem;

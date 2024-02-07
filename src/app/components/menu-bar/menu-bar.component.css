@@ -22,7 +22,7 @@ a:hover {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu-bar-container > ul > li {

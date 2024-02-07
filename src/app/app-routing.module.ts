@@ -4,14 +4,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomeComponent,
-  },
-  {
-    path: '',
-    component: ContentComponent,
-  }
+  // {
+  //   path: '',
+  //   component: HomeComponent,
+  // },
+  // {
+  //   path: '',
+  //   component: ContentComponent,
+  // }
 ];
 
 @NgModule({

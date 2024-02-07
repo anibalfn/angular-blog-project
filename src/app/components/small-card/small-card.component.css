@@ -11,6 +11,8 @@
 .small-card-description {
   display: flex;
   flex-direction: column;
+  color: white;
+
 }
 
 .small-card-title {
