@@ -1,0 +1,14 @@
+.contacts {
+  margin-top: 40px;
+}
+
+.title > h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.medias {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 12px;
+}
