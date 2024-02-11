@@ -4,13 +4,24 @@
 
 <app-menu-title></app-menu-title>
 
+<div class="presentation">
+  <app-big-card></app-big-card>
+</div>
 <div class="articles-container">
-  <div class="main-article">
-    <app-big-card></app-big-card>
+  <div class="description">
+    <app-card-description></app-card-description>
   </div>
   <div class="other-articles">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <hr />
+    <h2 class="section-title">{{ articleTitle }}</h2>
+    <div class="articles">
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+    </div>
+  </div>
+  <div>
+    <hr />
+    <app-social-media></app-social-media>
   </div>
 </div>

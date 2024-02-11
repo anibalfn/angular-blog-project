@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
   cardTitle: string = 'HELLO, I AM ANÍBAL F';
-  cardDescription: string = 'I am an anspirant to web developer and this is my personal blog';
 
   constructor() {
 
