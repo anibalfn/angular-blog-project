@@ -35,3 +35,10 @@
   display: flex;
   justify-content: center;
 }
+
+.section-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}

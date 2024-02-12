@@ -15,21 +15,16 @@
 }
 
 .title > h2:hover {
-  color: #df18ce;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff;
 }
 
 .medias {
   display: flex;
   column-gap: 16px;
-  margin-top: 12px;
+  margin-top: 20px;
   align-items: center;
   width: 100%;
   justify-content: center;
   background-color: white;
-}
-
-img:hover {
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
-
 }

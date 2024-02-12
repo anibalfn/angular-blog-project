@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './social-media.component.css'
 })
 export class SocialMediaComponent {
-  public contactTitle: string = ">> Contact me!";
+  public contactTitle: string = "Contact me";
 }
