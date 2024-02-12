@@ -5,10 +5,31 @@
 .title > h2 {
   font-size: 24px;
   color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.title > h2 {
+  text-decoration: none;
+}
+
+.title > h2:hover {
+  color: #df18ce;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
 }
 
 .medias {
   display: flex;
   column-gap: 16px;
   margin-top: 12px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-color: white;
+}
+
+img:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+
 }
