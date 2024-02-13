@@ -27,5 +27,5 @@ Este projeto é um blog pessoal criado com Angular para compartilhar conteúdo s
 
 ## Autor 🧑‍💻
 
-Este projeto foi desenvolvido por [Aníbal F](https://github.com/anibalf).  
+Este projeto foi desenvolvido por [Aníbal F](https://github.com/anibalfn).  
 Agradecimentos ao [Anderson Silva](https://github.com/AndersonSilva94) pelos ajustes no CSS. 
