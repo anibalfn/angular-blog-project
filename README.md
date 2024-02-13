@@ -1,6 +1,6 @@
 # Personal Blog Project  📝
 
-Este é um projeto de blog pessoal desenvolvido com Angular.  
+Este é um projeto de blog pessoal desenvolvido com **Angular**.  
 <br />
 <br />
 
