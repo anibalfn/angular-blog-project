@@ -1,6 +1,11 @@
-# Angular Blog Project  📝
+# Personal Blog Project  📝
 
-Este é um projeto de blog pessoal desenvolvido com Angular.
+Este é um projeto de blog pessoal desenvolvido com Angular.  
+<br />
+<br />
+
+## Landing Page 📖
+![Landing Page of blog](https://github.com/anibalfn/angular-blog-project/blob/main/landingpage_proj.png)
 
 ## Descrição 📝
 
