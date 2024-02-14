@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  public articleTitle: string = "MY ARTICLES"
+  public articleTitle: string = "MAIN PROJECTS"
 }
