@@ -7,8 +7,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ContentComponent } from './pages/content/content.component';
+import { HomeComponent } from './components/pages/home/home.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { CardDescriptionComponent } from './components/card-description/card-description.component';
 import { BioComponent } from './components/pages/bio/bio.component';
@@ -25,7 +24,6 @@ import { PortfolioComponent } from './components/pages/portfolio/portfolio.compo
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent,
     SocialMediaComponent,
     CardDescriptionComponent,
     BioComponent,

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
+import { HomeComponent } from './components/pages/home/home.component';
 import { BioComponent } from './components/pages/bio/bio.component';
 import { ArticlesComponent } from './components/pages/articles/articles.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
@@ -10,6 +10,7 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    pathMatch: 'full'
   },
   {
     path: 'bio',
@@ -26,7 +27,8 @@ const routes: Routes = [
   {
     path: 'portfolio',
     component: PortfolioComponent
-  }
+  },
+  {path: '**', redirectTo: ''},
 ];
 
 @NgModule({
