@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
 <div class="menu-bar-container">
   <ul>
     <li>
@@ -18,7 +22,15 @@
         >BIO</a
       >
     </li>
-    <li><a routerLink="/articles">ARTICLES</a></li>
+    <li>
+      <a
+        [routerLink]="['/articles']"
+        [routerLinkActive]="['classOn']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLink="/articles"
+        >ARTICLES</a
+      >
+    </li>
     <li><a routerLink="/projects">PROJECTS</a></li>
     <li><a routerLink="/portfolio">PORTFOLIO</a></li>
   </ul>
