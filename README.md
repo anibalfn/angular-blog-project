@@ -1,12 +1,12 @@
 # Personal Blog Project  📝
 
 Este é um projeto de blog pessoal desenvolvido com **Angular**.  
-Você pode acessá-lo através desse link: https://anibalfn.netlify.app/
+Você pode acessá-lo através desse link: <a target="_blank">https://anibalfn.netlify.app/</a>
 <br />
 <br />
 
 ## Landing Page 📖
-![Landing Page of blog target="_blank"](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/assets/landingpage_proj.png)
+![Landing Page of blog](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/assets/landingpage_proj.png)
 
 ## Descrição 📝
 
