@@ -6,7 +6,7 @@ Você pode acessá-lo através desse link: https://anibalfn.netlify.app/
 <br />
 
 ## Landing Page 📖
-![Landing Page of blog](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/assets/landingpage_proj.png)
+![Landing Page of blog target="_blank"](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/assets/landingpage_proj.png)
 
 ## Descrição 📝
 
