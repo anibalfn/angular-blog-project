@@ -11,6 +11,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { CardDescriptionComponent } from './components/card-description/card-description.component';
+import { BioComponent } from './components/pages/bio/bio.component';
+import { ArticlesComponent } from './components/pages/articles/articles.component';
+import { ProjectsComponent } from './components/pages/projects/projects.component';
+import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
 
 
 @NgModule({
@@ -24,6 +28,10 @@ import { CardDescriptionComponent } from './components/card-description/card-des
     ContentComponent,
     SocialMediaComponent,
     CardDescriptionComponent,
+    BioComponent,
+    ArticlesComponent,
+    ProjectsComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +9,8 @@
 
   background: url("./assets/landingpage_cyberpunk.jpg")
     center/cover no-repeat fixed;
-  background-color: #030303; /* Cor de fundo de backup caso a imagem não seja carregada */
-  margin: 0; /* Remova as margens padrão do corpo */
-  padding: 0; /* Remova o preenchimento padrão do corpo */
+  background-color: #030303;
+  margin: 0;
+  padding: 0;
   font-family: 'Audiowide', sans-serif;
 }
