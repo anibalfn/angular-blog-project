@@ -31,7 +31,23 @@
         >ARTICLES</a
       >
     </li>
-    <li><a routerLink="/projects">PROJECTS</a></li>
-    <li><a routerLink="/portfolio">PORTFOLIO</a></li>
+    <li>
+      <a
+        [routerLink]="['/projects']"
+        [routerLinkActive]="['classOn']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLink="/projects"
+        >PROJECTS</a
+      >
+    </li>
+    <li>
+      <a
+        [routerLink]="['/portfolio']"
+        [routerLinkActive]="['classOn']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLink="/portfolio"
+        >PORTFOLIO</a
+      >
+    </li>
   </ul>
 </div>
