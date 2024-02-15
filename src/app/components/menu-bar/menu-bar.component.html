@@ -1,8 +1,25 @@
 <div class="menu-bar-container">
   <ul>
-    <li><a routerLink="/bio" href="">BIO</a></li>
-    <li><a routerLink="/articles" href="">ARTICLES</a></li>
-    <li><a routerLink="/projects" href="">PROJECTS</a></li>
-    <li><a routerLink="/portfolio" href="">PORTFOLIO</a></li>
+    <li>
+      <a
+        [routerLink]="['/']"
+        [routerLinkActive]="[]"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLink="/"
+        >HOME</a
+      >
+    </li>
+    <li>
+      <a
+        [routerLink]="['/bio']"
+        [routerLinkActive]="['classOn']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLink="/bio"
+        >BIO</a
+      >
+    </li>
+    <li><a routerLink="/articles">ARTICLES</a></li>
+    <li><a routerLink="/projects">PROJECTS</a></li>
+    <li><a routerLink="/portfolio">PORTFOLIO</a></li>
   </ul>
 </div>

@@ -10,7 +10,6 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    pathMatch: 'full'
   },
   {
     path: 'bio',
@@ -27,8 +26,7 @@ const routes: Routes = [
   {
     path: 'portfolio',
     component: PortfolioComponent
-  },
-  {path: '**', redirectTo: ''},
+  }
 ];
 
 @NgModule({
