@@ -1,6 +1,7 @@
 # Personal Blog Project  📝
 
 Este é um projeto de blog pessoal desenvolvido com **Angular**.  
+Você pode acessá-lo através desse link: https://anibalfn.netlify.app/
 <br />
 <br />
 
