@@ -5,7 +5,7 @@ Este é um projeto de blog pessoal desenvolvido com **Angular**.
 <br />
 
 ## Landing Page 📖
-![Landing Page of blog](https://github.com/anibalfn/angular-blog-project/blob/main/landingpage_proj.png)
+![Landing Page of blog](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/assets/landingpage_proj.png)
 
 ## Descrição 📝
 
