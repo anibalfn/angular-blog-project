@@ -8,7 +8,7 @@ import { PortfolioComponent } from './components/pages/portfolio/portfolio.compo
 
 const routes: Routes = [
   {
-    path: '/',
+    path: '',
     component: HomeComponent,
   },
   {
@@ -27,9 +27,7 @@ const routes: Routes = [
     path: 'portfolio',
     component: PortfolioComponent
   },
-  {
-	path: '**'
-  }
+
 ];
 
 @NgModule({
