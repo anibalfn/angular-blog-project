@@ -1,36 +1,66 @@
 .small-card-container {
-  width: 600px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 8px;
-
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 8px;
 }
 
 .small-card-description {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding-bottom: 10px;
-
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding-bottom: 10px;
 }
 
 .small-card-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 h3 {
-  color: aqua;
+	color: aqua;
 }
 
-
 img {
-  height: 70%;
-  border: 1px solid black;
-  border-radius: 40%;
-  justify-content: right;
-  margin-left: 30px;
-  height: 100%;
+	height: 70%;
+	border: 1px solid black;
+	border-radius: 40%;
+	justify-content: right;
+	margin-left: 30px;
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.small-card-container {
+		max-width: 600px; /* Alterado de width para max-width */
+		width: 100%; /* Ajustado para ocupar a largura total em telas menores */
+		display: flex;
+		flex-direction: column; /* Alterado de row para column */
+		justify-content: center; /* Alterado de flex-end para center */
+		margin: 8px auto; /* Ajustado a margem para ficar centralizado e responsivo */
+	}
+
+	.small-card-description {
+		color: white;
+		padding: 10px;
+	}
+
+	.small-card-title {
+		justify-content: space-between;
+	}
+
+	h3 {
+		color: aqua;
+	}
+
+	img {
+		width: 50%; /* Ajustado para ocupar a largura total do contêiner */
+		max-height: 70%; /* Adicionado max-height para evitar que a imagem ultrapasse 70% da altura do contêiner */
+		border: 1px solid black;
+		border-radius: 40%;
+		margin-top: 10px; /* Adicionado espaçamento superior para separar a imagem do título */
+		margin-bottom: 10px; /* Adicionado espaçamento inferior para separar a imagem do título */
+	}
 }

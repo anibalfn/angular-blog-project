@@ -40,3 +40,23 @@
       0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
   }
 }
+
+@media only screen and (max-width: 768px) {
+	.menu-title-container {
+	  margin-top: -20px;
+	  padding-right: 15px;
+	  height: 30%;
+	  width: 80%;
+	  margin-left: 10%;
+	  padding-bottom: 30px;
+	}
+
+	.menu-title-container > h1 {
+	  font-size: 2rem;
+	  padding: 5px;
+	}
+
+	.menu-title-container > br {
+	  display: none;
+	}
+  }

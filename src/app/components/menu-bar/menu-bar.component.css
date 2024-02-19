@@ -1,36 +1,55 @@
 .menu-bar-container {
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
-  font-weight: bolder;
-  font-size: larger;
-  text-decoration: none;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: bolder;
+	font-size: larger;
+	text-decoration: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
-    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+		0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
 }
 
 .menu-bar-container > ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .menu-bar-container > ul > li {
-  text-align: left;
+	text-align: left;
 }
 
 .classOn {
-  font-family: 'Audiowide', sans-serif;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
-    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+	font-family: "Audiowide", sans-serif;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+		0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
+@media only screen and (max-width: 768px) {
+	.menu-bar-container {
+		width: 90%; /* Adjusted width for mobile */
+		margin-top: 10px; /* Adjusted margin for mobile */
+		margin-left: 5%; /* Adjusted margin for mobile */
+		font-size: medium; /* Adjusted font size for mobile */
+	}
+
+	.menu-bar-container > ul {
+		flex-direction: row; /* Display menu items in a column for mobile */
+		align-items: center; /* Center align menu items for mobile */
+		padding-bottom: 8%;
+	}
+
+	.menu-bar-container > ul > li {
+		text-align: center; /* Center align menu item text for mobile */
+	}
 }
