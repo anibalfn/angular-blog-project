@@ -1,6 +1,7 @@
-# Personal Blog Project  📝
+# ![Blog Icon](https://raw.githubusercontent.com/anibalfn/angular-blog-project/main/src/favicon.ico)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b>Personal Blog Project</b>  
 
 Este é um projeto de blog pessoal desenvolvido com **Angular**.  
+Você pode acessá-lo através desse link: [Aníbal F | Welcome To My Universe](https://anibalfn.netlify.app/)
 <br />
 <br />
 
