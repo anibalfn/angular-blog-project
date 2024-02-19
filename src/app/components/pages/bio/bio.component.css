@@ -1,11 +1,5 @@
-.bio-container {
-  border: 3px solid yellow;
-}
-
-.contact-list {
-  border: 3px solid blue;
-}
-
-img {
-  border: 3px solid red;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
