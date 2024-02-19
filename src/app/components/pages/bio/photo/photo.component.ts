@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './photo.component.css'
 })
 export class PhotoComponent {
+photoCover: string = 'https://avatars.githubusercontent.com/u/78622296?v=4';
 
 }

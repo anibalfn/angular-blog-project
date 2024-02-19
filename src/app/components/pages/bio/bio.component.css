@@ -1,5 +1,10 @@
-/* * {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-} */
+	border: 3px lime solid;
+}
+
+h1 {
+	padding-top: 5%;
+}
