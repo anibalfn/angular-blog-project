@@ -1,5 +1,11 @@
+* {
+	padding-left: 2rem;
+}
+
 li {
 	color: aqua;
+	list-style: none;
+	text-decoration: none;
 
 }
 

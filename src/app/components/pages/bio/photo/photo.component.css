@@ -2,17 +2,18 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+  }
 
-.photo-container {
-	border: 3px solid yellow;
-	width: fit-content;
-	margin-left: 65%;
-	margin-top: 30px;
-}
+  .photo {
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+	height: 30%;
+  }
 
-.photo {
-	border: 3px solid blue;
-	width: fit-content;
-	height: fit-content;
-}
+  .photo > img {
+	width: 75%;
+	height: 75%;
+	object-fit: cover; /* Para garantir que a imagem cubra completamente a área especificada */
+  }

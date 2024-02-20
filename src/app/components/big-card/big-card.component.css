@@ -68,7 +68,7 @@ a {
 
 @media only screen and (max-width: 768px) {
 	.typing-demo {
-	  font-size: 1em; /* Ajustar conforme necessário para telas menores */
+	  font-size: 1em;
 	  margin-right: 5%;
 	  margin-top: -5%;
 	  padding: 10px;
