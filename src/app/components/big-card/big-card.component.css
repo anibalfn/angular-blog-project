@@ -68,11 +68,13 @@ a {
 
 @media only screen and (max-width: 768px) {
 	.typing-demo {
-	  font-size: 2em; /* Ajustar conforme necessário para telas menores */
+	  font-size: 1em; /* Ajustar conforme necessário para telas menores */
 	  margin-right: 5%;
 	  margin-top: -5%;
 	  padding: 10px;
 	  padding-top: 10px;
+	  display: flex;
+	  flex-wrap: wrap;
 	}
 
 	h1 {

@@ -40,16 +40,18 @@ a:hover {
 		width: 90%; /* Adjusted width for mobile */
 		margin-top: 10px; /* Adjusted margin for mobile */
 		margin-left: 5%; /* Adjusted margin for mobile */
-		font-size: medium; /* Adjusted font size for mobile */
+		font-size: x-small; /* Adjusted font size for mobile */
+		margin-bottom: 5px;
 	}
 
 	.menu-bar-container > ul {
-		flex-direction: row; /* Display menu items in a column for mobile */
+		flex-direction: row;
 		align-items: center; /* Center align menu items for mobile */
-		padding-bottom: 8%;
+		padding-bottom: 10%;
 	}
 
 	.menu-bar-container > ul > li {
 		text-align: center; /* Center align menu item text for mobile */
+		padding: 0px 5px 0px 5px;
 	}
 }
